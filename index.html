@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+      <title>Lingüística - Language Institute</title>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.parallax').parallax();
+        });
+      </script>
+      <div class="navbar-fixed">
+      <!--Barra de navegación-->
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img class="logo" src="img/animalf.png" alt="butterfly">Lingüística </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="indexEsp.html">Spanish versión</a></li>
+              <li><a href="https://www.facebook.com/LINGUISTICA.MEDELLIN/?ref=ts&fref=ts"><img src="img/facebook2.png" alt="Facebook"></a></li>
+              <li><a href="https://www.instagram.com/linguistica.medellin/"><img src="img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Contenido estilo parallax-->
+      <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="img/banner.jpg"></div>
+      </div>
+      <!-- contenido spanish classes -->
+      <div data-aos="fade-up-right"
+      data-aos-duration="1000" class="section white">
+        <div class="row container">
+          <h2 class="center-align">Spanish Classes</h2>
+          <h5 class="center-align">We assure effective and entertaining classes</h5>
+          <p class="center-align">Personal and convenient, maximum retention and fluency</p>
+        </div>
+        <div class="row">
+          <div data-aos="fade-up"
+          data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 1 goes here -->
+             <img class="responsive-img" src="img/capabilities.png">
+             <p class="center-align">We count with certified native teachers to give you the best experience of
+             learning and interacting with the language</p>
+          </div>
+          <div data-aos="fade-down"
+          data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 2 goes here -->
+            <img class="responsive-img" src="img/chal.png">
+            <p class="center-align">Inmersion based - learning, ideal to develop the understanding and apropiation of spanish</p>
+          </div>
+          <div data-aos="fade-up"
+          data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 3 goes here -->
+            <img class="responsive-img" src="img/potential.png">
+            <p class="center-align">Increase your potential and learning with local activities that will make you grow as a person and professionally</p>
+          </div>
+        </div>
+      </div>
+      <!-- segunda imagen parallax -->
+      <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="img/foto5.jpg"></div>
+        <div data-aos="fade-up" data-aos-duration="2000" class="center-align">
+          <h2 class="yellow-text text-darken-2">BENEFITS?</h2>
+        </div>
+      </div>
+      <!-- Promo Content 1 goes here -->
+      <div class="section yellow">
+        <div data-aos="flip-down" data-aos-duration="1000" class="row container">
+          <h4 class="center-align">This is what you get!</h4>
+          <p class="center-align">There´s many more benefits you can imagine, improve your quality of life</p>
+        </div>
+        <div class="row">
+          <div data-aos="fade-right" data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 1 goes here -->
+            <p class="center-align">Express yourself, let the others know what your thinking the better way</p>
+             <img class="responsive-img" src="img/social.png">
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 2 goes here -->
+            <p class="center-align">Looking for success? grow your business, personal life and profesional skills </p>
+            <img class="responsive-img" src="img/benefits.png">
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000" class="col s4">
+            <!-- Promo Content 3 goes here -->
+            <p class="center-align">Loose all of your fears! with lingüística you´ll learn that it´s never too late or early</p>
+            <img class="responsive-img" src="img/fear.png">
+          </div>
+        </div>
+      </div>
+      <!--Formaulario de contacto-->
+      <div class="section white" id="contact">
+        <div data-aos="zoom-in" class="row container">
+          <h2 class="center-align">Contact Us</h2>
+          <div class="row">
+            <form class="col s12" action="correo.php" method="POST">
+              <div class="row">
+                <div class="input-field col s4">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input name="name" id="name" type="text" class="validate">
+                  <label for="icon_prefix">Name</label>
+                </div>
+                <div class="input-field col s4">
+                  <i class="material-icons prefix">phone</i>
+                  <input name="phone" id="phone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div>
+                <div class="input-field col s4">
+                  <i class="material-icons prefix">email</i>
+                  <input name="email" id="email" type="email" class="validate">
+                  <label for="icon_email">E-mail</label>
+                </div>
+                <div class="row">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea  name="msg" id="msg" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--paypal and join-->
+      <div class="section blue-grey">
+        <div data-aos="zoom-in" class="row container">
+          <h4 class="center-align">Give yourself an oportunity</h4>
+          <h4 class="center-align">Download our portfolio to know more about us
+        </div>
+        <div class="row container center-align">
+            <a target="_blank" href="https://drive.google.com/open?id=0B_8mFnNmsL5XNEs5NjRFX01KcHc"><img class="center-align descarga" src="img/cloud.png" alt=""></a></h4>
+        </div>
+        <div class="row">
+          <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="col s5 offset-s1">
+             <img class="responsive-img" src="img/join.png">
+          </div>
+          <div data-aos = "zoom-in" data-aos-duration="3000" class="col s5">
+            <p class="center-align">Have you decided? YES!, but you don´t know where to start this new part of your life...</p>
+            <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8HBPHNCUVSVQ"><img class="responsive-img" src="img/paypalComp.png"></a>
+            <p class="center-align">We have Paypal for your relief just click on the image above and start enjoying Lingüística</p>
+          </div>
+        </div>
+      </div>
+      <!-- Customers -->
+      <div class="section white">
+        <div class="row container">
+          <h4 class="center-align">Satisfied customers</h4>
+        </div>
+        <div class="row">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" class="col s2">
+             <img class="responsive-img" src="img/bs.png">
+          </div>
+          <div data-aos="fade-down"
+          data-aos-anchor-placement="bottom-bottom" class="col s2">
+            <img class="responsive-img" src="img/com.png">
+          </div>
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" class="col s2">
+            <img class="responsive-img" src="img/EE.png">
+          </div>
+          <div data-aos="fade-down"
+          data-aos-anchor-placement="bottom-bottom" class="col s2">
+            <img class="responsive-img" src="img/ibm.png">
+          </div>
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" class="col s2">
+            <img class="responsive-img" src="img/compu.png">
+          </div>
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="col s2">
+            <img class="responsive-img" src="img/aruslogo.jpg">
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text">Information</h5>
+                <p class="black-text">Medellin - Antioquia, Colombia</p>
+                <p class="black-text">Working hours: 7:00 am - 9:00 pm</p>
+                <p class="black-text">E-mail: comercial@centrolinguistica.com</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="black-text">Contact numbers</h5>
+                <ul>
+                  <li><p class="black-text">Tel: +57 034 5870985</p></li>
+                  <li><p class="black-text">Cel: +57 302-281-7960</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Lingüística
+            <a target="_blank" class="grey-text text-lighten-4 right" href="https://github.com/travs15">Developed by: Travs</a>
+            </div>
+          </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+  </html>
